@@ -1,0 +1,26 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://6lad4trcxqu4"]
+
+[ext_resource type="Texture2D" uid="uid://ce5p1ejoxg28w" path="res://base641.PNG" id="1_y15yj"]
+[ext_resource type="Texture2D" uid="uid://ckrhlaq0rolpo" path="res://base64(3).PNG" id="2_lqxst"]
+[ext_resource type="Texture2D" uid="uid://btegux86jeb5c" path="res://base64(2).PNG" id="3_6kmiv"]
+
+[resource]
+resource_name = "wa"
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_y15yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lqxst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_y15yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6kmiv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
